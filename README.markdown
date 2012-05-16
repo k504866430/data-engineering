@@ -24,3 +24,10 @@
 ## Domain Model
 1. Access the file in doc/domain-model.zargo.
 1. Download ArgoUML to view the model.
+
+## Time Taken
+1. 20min - Project setup
+1. 90min - Development
+1. 20min - Heroku Cloud Deployment
+1. 15min - Documentation
+Total- 145mins
