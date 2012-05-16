@@ -1,7 +1,15 @@
 DataEngineering::Application.routes.draw do
+  
+    
   ActiveAdmin.routes(self)
 
   devise_for :admin_users, ActiveAdmin::Devise.config
+  devise_scope :admin do
+    get "/" => 'admin/dashboard#index'
+  end
+  root :to => 'admin/dashboard#index', :constraints => lambda {|r| r.env["warden"].authenticate? }
+  root :to => 'active_admin/devise/sessions#new'
+  
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
