@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '1.9.3'
+
 gem 'rails', '3.2.3'
 
 # Bundle edge Rails instead:
@@ -40,6 +42,7 @@ end
 gem 'haml-rails', '>= 0.3.4'
 gem 'activeadmin'
 gem "meta_search",    '>= 1.1.0.pre'
+gem 'heroku'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
