@@ -1,0 +1,18 @@
+development:
+  adapter: postgresql
+  database: data-engineering_dev
+  username: postgres
+  password: postgres
+  host: localhost
+test:
+  adapter: postgresql
+  database: data-engineering_test
+  username: postgres
+  password: postgres
+  host: localhost
+production:
+  adapter: postgresql
+  database: data-engineering_prod
+  username: postgres
+  password: postgres
+  host: localhost
