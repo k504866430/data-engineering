@@ -1,5 +1,5 @@
 # Demo deployed on Heroku
-[http://livingsocial-data-engineering.herokuapp.com/admin/login](sample app)
+[http://livingsocial-data-engineering.herokuapp.com](sample app)
 
 
 ## Deployment Instructions:
